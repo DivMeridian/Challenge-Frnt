@@ -73,7 +73,7 @@ function App() {
 
 
     // Send form data to the server
-    instance.post('/register', formdata)
+    instance.post('/api/register', formdata)
       .then((response) => {
         // Success alert and redirect
         alert('User registered successfully!');
