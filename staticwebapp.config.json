@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "route": "/api/*",
+      "rewrite": "https://challenge-based-face-recognition-hnc5a2axefaehmfj.eastus-01.azurewebsites.net/api/"
+    },
+    {
+      "route": "/*",
+      "rewrite": "/index.html"
+    }
+  ]
+}
